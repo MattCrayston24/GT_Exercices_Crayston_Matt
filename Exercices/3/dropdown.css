@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+header li a{
+    display: block;
+    padding: 30px;
+}
+
+header li a:hover{
+    background-color: brown;
+    color: white;
+}
+
+header li:hover .sub-menu{
+    display: block;
+    position: absolute;
+}
+
+.sub-menu{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

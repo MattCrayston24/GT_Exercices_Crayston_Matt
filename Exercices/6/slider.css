@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.slide{
+    float: left;
+}
+.slider{
+    width: 600px;
+    overflow: hidden;
+    margin: 150px auto;
+}
+.slides{
+    width: calc(800px * 3);
+    animation: glisse 5s infinite;
+}
+
+@keyframes glisse{
+    0% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-600px);
+    }
+    66% {
+        transform: translateX(-1200px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

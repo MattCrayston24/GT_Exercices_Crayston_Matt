@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 600px;
+    width: 120px;
+    background-color: rgb(255, 0, 0);
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.button:hover{
+    color: rgb(0, 0, 0);
+}
+
+
+.section{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cat{
+    background-color: rgb(255, 255, 255) ;
+}
+
