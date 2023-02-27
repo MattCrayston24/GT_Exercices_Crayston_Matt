@@ -1,0 +1,212 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300vh;
+}
+
+header{
+    background-color: #101010;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    border-bottom: solid 2px #d81d52;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    top: 15%;
+    left: 2%;
+    background-color: #d81d52;
+}
+
+.ctn-navbar-buttons{
+    height: 30%;
+    width: 50%;
+    float: right;
+    position: relative;
+    top: 35%;
+    right: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-nav{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    display: inline-block;
+}
+
+.btn-nav::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color: #d81d52;
+    transition: all 0.7s ease;
+    position: relative;
+    top: 7px;
+}
+.btn-nav:hover::after{
+    width: 100%;
+}
+
+.btn-nav:hover{
+    color: #d81d52;
+    margin-bottom: solid 1px white ;
+}
+
+nav{
+    position: fixed;
+    height: 400px;
+    width: 100px;
+    background-color: #101010;
+    top: 55%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: solid 2px #d81d52;
+    border-bottom: solid 2px #d81d52;
+}
+
+.button{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.button::after{
+    content: "";
+    display: block;
+    width: 0%;
+    height: 100%;
+    background-color: #d81d52;
+    transition: all 0.7s ease;
+    position: relative;
+    bottom: 30px;
+}
+
+.button:hover::after{
+    width: 100%;
+}
+
+.button:hover{
+    color:  #d81d52;
+}
+
+.section1{
+    margin: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background: url(./img/back.jpg) rgba(10, 10, 10, 0.6);
+    background-repeat: no-repeat;
+    border-bottom: solid 4px #d81d52;
+    background-blend-mode: darken;
+}
+
+.section2{
+    margin: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background: url(./img/back2.jpg) rgba(10, 10, 10, 0.6);
+    background-repeat: no-repeat;
+    border-bottom: solid 4px #d81d52;
+    background-blend-mode: darken;
+}
+
+.section3{
+    margin: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background: url(./img/back3.jfif) rgba(10, 10, 10, 0.6);
+    background-repeat: no-repeat;
+    border-bottom: solid 4px #d81d52;
+    background-blend-mode: darken;
+}
+
+.section4{
+    margin: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background: url(./img/back4.jfif) rgba(10, 10, 10, 0.6);
+    background-repeat: no-repeat;
+    border-bottom: solid 4px #d81d52;
+    background-blend-mode: darken;
+}
+
+.textee{
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.cat{
+    background-color: rgb(255, 255, 255) ;
+}
+
+footer{
+    display: block;
+    background-color: #101010;
+    flex-shrink: 0;
+    width: 100%;
+    height: 300px;
+    color: #c1c1c1;
+}
+
+.block1{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+}
+
+.txt-foot{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    font-size: 30px;
+    border-bottom: solid 2px #d81d52;
+}
+.text-foot{
+    margin-top: -5px;
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
+.text-foot2{
+    margin-top: 50px;
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+}
+

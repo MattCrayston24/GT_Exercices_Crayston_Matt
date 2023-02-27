@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     flex-wrap: wrap;
+    background-color: #d81d52 ;
 }
 
 .card {
